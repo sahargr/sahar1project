@@ -21,7 +21,7 @@ it("input", () => {
 });
 
 describe("second test", () => {
-  it("login page", () => {
+  it("login ppage", () => {
     cy.visit("https://webapp-cypress.staging.k8s.wallex.ir/login");
     cy.title().should(
       "include",
