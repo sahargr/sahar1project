@@ -27,6 +27,5 @@ describe("second test", () => {
       "include",
       "ورود به پلتفرم معاملات ارزهای دیجیتال | صرافی والکس"
     );
-    cy.get("#login-signup").click();
   });
 });
